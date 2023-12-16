@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-color: #6359fae1;
+   /* padding-top: 70px; */
+}
+nav{
+    background-color: rgb(117, 18, 231);
+    color: white;
+    border-radius: 12px;
+    height: 60px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(15px);
+    position: fixed;
+    width: 100%;
+   
+    }
+  nav ul li .logo img{
+        border-radius: 100px;
+        height: 35px;
+        width: 35px;
+
+    }
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: large;
+    align-content: space-around;
+}
+nav ul li{
+    padding: 5px 5px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+main .card{
+    border: 3px solid rgb(71, 71, 224);
+    border-radius: 30px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    height: 350px;
+    width: 290px;
+    background-color: rgb(114, 204, 41);
+    box-sizing:content-box;
+    padding-bottom: 30px;
+     /* align-items: center;
+    justify-content: center; */
+   
+}
+main .card:hover{
+    padding: 20px 20px;
+    background-color: goldenrod;
+}
+main .img img{
+    width: 280px;
+    height: 200px;
+    margin: 5px ;
+    border-radius: 18px;
+   
+
+}
+main .detail{
+    margin: 0px 8px;
+    color: white;
+    font-family:sans-serif;
+    box-sizing: content-box;
+    text-align: center;
+}
+main h2{
+    margin: 8px 5px;
+    border: 2px solid rgb(151, 151, 226);
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #2a0bb6;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    padding: 5px 20px;
+    text-align: center;
+    font-family: serif;
+}
+main span{
+    color: white;
+    background-color: rgb(54, 19, 209);
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    gap: 20px 30px;
+    padding: 100px;
+}
+.card span:hover{
+    color: white;
+    background-color: rgb(109, 47, 255);
+    padding: 20px 20px;
+
+  }
+footer .notes{
+    text-align: right;
+    margin-right: 10px;
+    color: white;
+    padding: 10px ;
+    font-family: sans-serif;
+    
+}
+footer .contacts{
+    height: 100px;
+    width: 300px;
+    margin: 10px 30px;
+    padding: 10px 15px;
+    border-radius: 14px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: sans-serif;
+
+
+}
+footer .contacts a{
+    text-decoration: none;
+    color: rgb(10, 10, 240);
+    font-size: 2em;
+}
+footer .contacts a:hover{
+    color: aqua;
+}
+footer .credit{
+    color: white;
+    padding: 20px;
+    margin: 5px 10px;
+    text-align: center;
+    font-size: large;
+}
+footer{
+    background-color: #3546e0;
+}
